@@ -76,4 +76,4 @@ for vector in [[4,10,10],[6,65,22],[15,40,10],[11,14,25],[10,70,10],[19,67,13]]:
 name = "graphene"
 output = mg.Writer(sim, name)
 output.write_xyz(name + ".xyz")
-output.write_lammps(name + ".data")
+output.write_lammps(name + ".data.lmp")

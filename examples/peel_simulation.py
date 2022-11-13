@@ -27,4 +27,4 @@ sim = mg.Combine(bulk, flake1)
 
 output = mg.Writer(sim, "flake on graphite")
 output.write_xyz("graphene" + str(1) + ".xyz")
-output.write_lammps("flake" + str(1) + ".data")
+output.write_lammps("flake" + str(1) + ".data.lmp")

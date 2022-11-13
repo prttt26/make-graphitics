@@ -36,4 +36,4 @@ sim.box_dimensions[2] = 30
 # output.rotate(180,1)
 output = mg.Writer(sim, "flake on graphite")
 output.write_xyz("graphene.xyz")
-output.write_lammps("flake.data")
+output.write_lammps("flake.data.lmp")

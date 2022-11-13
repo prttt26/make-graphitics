@@ -25,4 +25,4 @@ mg.Parameterise(graphene, vdw_defs)
 name = "graphene"
 output = mg.Writer(graphene, name)
 output.write_xyz(name + ".xyz")
-output.write_lammps(name + ".data")
+output.write_lammps(name + ".data.lmp")

@@ -25,4 +25,4 @@ mg.Parameterise(sim, new_layer.vdw_defs)
 name = "GO_stack"
 output = mg.Writer(sim, name)
 output.write_xyz(name + ".xyz")
-output.write_lammps(name + ".data")
+output.write_lammps(name + ".data.lmp")

@@ -25,4 +25,4 @@ mg.Parameterise(sim)
 name = "graphene_stack"
 output = mg.Writer(sim, name)
 output.write_xyz(name + ".xyz")
-output.write_lammps(name + ".data")
+output.write_lammps(name + ".data.lmp")

@@ -119,8 +119,8 @@ class Oxidiser(Reactor):
             11: 108,  # Cb, Benzyl
             7: 109,  # Oa, C-OH
             8: 209,  # Cc, Carboxylic carbon
-            9: 210,  # Oc, Ketone oxygen
-            10: 211,  # Oa, alcohol
+            9: 210,  # Oc, Carboxylic Ketone oxygen 
+            10: 211,  # Oa, Carboxylic -OH 
             12: 213, # C, carboxylate -COO
             13: 214, # O, carboxylate -COO
             349: 349, # Na+
